@@ -16,7 +16,7 @@ export default function App() {
   const [isDetecting, setIsDetecting] = useState(false);
   const [previewUrl, setPreviewUrl] = useState(null);
 
-  const API_URL = import.meta.env.VITE_API_URL || "http://https://fu4ll-back-practice.hf.space/";
+  const API_URL = import.meta.env.VITE_API_URL || "https://fu4ll-back-practice.hf.space/";
 
   // ── Проверка модели при загрузке ──────────────────────────────────────────
 
