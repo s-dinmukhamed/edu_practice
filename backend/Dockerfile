@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     libxrender-dev \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app
+WORKDIR /app/backend
 
 # Сначала torch отдельно — используем CPU-only версию (намного легче)
 RUN pip install --no-cache-dir \
